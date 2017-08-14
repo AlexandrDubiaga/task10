@@ -1,7 +1,7 @@
 <?php
 include ('config.php');
 include ('libs/SQL.php');
-$connect = new SQL();
+$connect = new Sql();
 switch (true)
 {
     case isset($_GET['distinct']):
